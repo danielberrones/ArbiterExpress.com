@@ -6,7 +6,7 @@
 
 	<div class="wrapper">
 
-		<h1>What We Do</h1>
+		<h1>Services We Offer</h1>
 
 		<ul>
 			<li>LTL</li>

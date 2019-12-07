@@ -291,7 +291,7 @@ header nav a:hover {
   color: #f5f4f4;
   display: block;
   line-height: 1.2;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-shadow: #000 0 0 10px;
   text-align: center;
 }
@@ -452,7 +452,7 @@ select {
 
 /* ABOUT */
 .about h1 {
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 /* TABLES */
@@ -713,6 +713,7 @@ p + table {
 #contact-bar button {
   padding: 12px 20px 8px;
   border: 1px solid #333;
+  margin-left: 0;
 }
 
 #contact-bar h1 {
@@ -890,13 +891,6 @@ footer nav a {
   display: inline-block;
 }
 
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
