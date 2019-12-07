@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* GLOBAL */
 * {
   position: relative;
   margin: 0;
@@ -12,7 +11,7 @@
 h1 {
   font-size: 26px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   color: #111;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
@@ -35,18 +34,9 @@ h2 {
 main {
   font-size: 0;
   padding: 0 20%;
-}
-
-ul {
-  display: block;
-  width: 100%;
-  font-size: 16px;
-  padding: 15px 0 0;
-}
-
-li {
-  margin: 15px 0;
-  display: block;
+  padding: 75px 0;
+  background-color: #ffffff;
+  background-image: url("../images/wall.png");
 }
 
 p {
@@ -58,10 +48,15 @@ p {
 ul {
   font-family: "Nunito", sans-serif;
   font-size: 18px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 15px 0 0;
 }
 
 ul li {
   margin: 10px 0;
+  display: block;
 }
 
 ul li:before {
@@ -78,7 +73,7 @@ ul li:before {
 .wrapper {
   display: block;
   vertical-align: top;
-  width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -87,7 +82,6 @@ ul + h1 {
   margin-top: 30px;
 }
 
-/* HEADER */
 header {
   background: url("../images/black-orchid.png"), #000;
   border-bottom: 7px solid #d7d7d7;
@@ -115,7 +109,7 @@ header nav {
 header nav a {
   text-decoration: none;
   font-weight: bold;
-  margin-left: 25px;
+  margin-left: 40px;
   font-size: 24px;
   letter-spacing: 1px;
   transition: color 0.3s ease;
@@ -130,7 +124,7 @@ header nav a:before {
   display: inline;
   font-size: 14px;
   color: #910807;
-  left: -14px;
+  left: -20px;
   top: -5px;
 }
 
@@ -156,10 +150,10 @@ header nav a:hover {
 }
 
 .contact-line {
-  background: #940807;
+  background: #940807 url("../images/black-orchid.png");
   color: #fff;
-  font-size: 12px;
-  padding: 7px 0;
+  font-size: 14px;
+  padding: 10px 0;
   text-align: right;
   border-bottom: 5px solid black;
 }
@@ -167,7 +161,6 @@ header nav a:hover {
 .contact-line a {
   color: white;
   font-family: "Nunito", sans-serif;
-  font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-left: 30px;
@@ -179,7 +172,7 @@ header nav a:hover {
   vertical-align: middle;
 }
 
-#slider {
+#hero {
   display: block;
   width: 100%;
   padding: 140px 0;
@@ -189,33 +182,33 @@ header nav a:hover {
   background-repeat: no-repeat;
 }
 
-#slider blockquote {
+#hero blockquote {
   font-size: 46px;
   color: #f5f4f4;
   display: block;
   line-height: 1.2;
-  font-family: "Alfa Slab One", cursive;
+  font-family: "Josefin Sans", sans-serif;
   text-shadow: #000 0 0 10px;
   text-align: center;
 }
 
-#slider blockquote + span {
+#hero blockquote + span {
   font-size: 22px;
   display: block;
   margin-top: 20px;
   text-align: center;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Alfa Slab One", cursive;
   text-shadow: #000 0 0 10px;
   color: #fff;
 }
 
-#slider blockquote + span:before {
+#hero blockquote + span:before {
   content: "—";
   display: inline;
   margin-right: 5px;
 }
 
-#slider a {
+#hero a {
   background: #56ab2f;
   /* fallback for old browsers */
   background: url("../images/denim.png"), -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);
@@ -240,12 +233,12 @@ header nav a:hover {
   margin: auto;
 }
 
-#slider a:hover {
+#hero a:hover {
   cursor: pointer;
   border: 2px solid #222;
 }
 
-#slider a i {
+#hero a:hover i {
   top: 2px;
   left: 10px;
 }
@@ -453,12 +446,6 @@ form p {
 
 .c60.left {
   border-right: 1px solid #aaa;
-}
-
-main {
-  padding: 25px 0;
-  background-color: #ffffff;
-  background-image: url("../images/wall.png");
 }
 
 form {
@@ -744,7 +731,7 @@ p + table {
   font-size: 0;
   font-family: "Calibri";
   padding: 50px 0;
-  background: url("../images/map.png");
+  background: url("../images//map.png");
   background-repeat: no-repeat;
   background-position: 100% 40%;
   color: #fff;
@@ -895,9 +882,14 @@ footer .links li:before {
 }
 
 footer .links li a {
-  font-size: 16px;
   color: #88D76C;
   text-decoration: none;
+}
+
+footer .details {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 footer .details li {
@@ -922,13 +914,52 @@ footer .details li:first-of-type a {
 }
 
 footer nav {
-  float: right;
+  width: calc(100% - 303px);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
 }
 
 footer nav a {
-  display: line-block;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-left: 40px;
+  display: inline-block;
 }
 
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */

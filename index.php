@@ -1,10 +1,10 @@
 <?php require_once('inc/header.php'); ?>
 
-<section id="slider">
+<section id="hero">
 
 	<div class="wrapper">
 
-		<blockquote>Integrating technological advancements with good ole traditional trucking.</blockquote>
+		<blockquote>Integrating technological advancements<br> with good ole traditional trucking.</blockquote>
 
 		<a href="">Learn More <i class="fas fa-arrow-alt-circle-right"></i></a>
 
@@ -55,7 +55,7 @@
 
 			<a href="" class="button">Apply Now</a>
 
-			<img src="images/trucks1.jpg" alt="Trucks" style="margin-top: 25px; border: 1px solid black;">
+			<img src="images/trucks1.jpg" alt="SEO" style="margin-top: 25px; border: 1px solid black;">
 
 		</div>
 

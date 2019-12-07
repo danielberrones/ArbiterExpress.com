@@ -69,14 +69,16 @@
 		<ul class="links">
 			<li><a href="contact">Contact Us</a></li>
 			<li><a href="privacy">Privacy Policy</a></li>
-			<li><a href="tos">Terms of Us</a></li>
+			<li><a href="tos">Terms of Use</a></li>
 			<li><a href="sitemap">Sitemap</a></li>
-			<li>&copy;&nbsp; 2019 Arbiters Express LLC. All rights reserved.</li>
+			<li>&copy;&nbsp; 2020 Arbiters Express LLC. All rights reserved.</li>
 		</ul>
 
 	</div>
 </footer>
 
+<script src="js/jquery.js"></script>
+<script src="js/script.js?v=2"></script>
 
 </body>
 </html>
