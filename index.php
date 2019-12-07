@@ -4,11 +4,9 @@
 
 	<div class="wrapper">
 
-		<blockquote>“ Just what I was looking for.<br>It fits our needs perfectly. ”</blockquote>
+		<blockquote>Integrating technological advancements with good ole traditional trucking.</blockquote>
 
-		<span>Rick M.</span>
-
-		<a href="">Get Estimate <i class="fas fa-arrow-alt-circle-right"></i></a>
+		<a href="">Learn More <i class="fas fa-arrow-alt-circle-right"></i></a>
 
 	</div>
 
@@ -45,16 +43,15 @@
 
 			<h1>DRIVERS WANTED &nbsp; <i class="fas fa-truck-moving"></i></h1>
 
-			<p>Donec molestie lorem eget dui viverra, vitae luctus nunc vestibulum. Aliquam at enim nec libero facilisis vestibulum laoreet eget leo. Fusce eros sapien, tristique ut diam eget.</p>
+			<p>We are always looking for more drivers. Even though we are currently full, we are always accepting applications</p>
 
 			<ul>
-				<li>Requirement here</li>
-				<li>Another requirement here</li>
-				<li>We're just full of requirements</li>
-				<li>Yeah one more good for measure</li>
+            	<li>Contracted CDL Drivers</li>
+            	<li>Experience Needed and Driving School Transcripts Required if under 1 year experience</li>
+            	<li>Looking for dedicated drivers willing to get paid well</li>
+            	<li>Must have mechanical aptitude</li>
+            	<li>Must have a valid email access and smart phone</li>
 			</ul>
-
-			<p>Donec ut mi sed massa commodo finibus at sit amet nulla. Ut tincidunt orci libero, auctor.</p>
 
 			<a href="" class="button">Apply Now</a>
 

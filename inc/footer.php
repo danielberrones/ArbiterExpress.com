@@ -57,7 +57,6 @@
 
 		<ul class="details">
 			<li><a href="">ArbiterExpress.com</a></li>
-			<li><i class="fas fa-globe"></i>&nbsp; Roseville, MI</li>
 			<li><i class="fas fa-phone"></i>&nbsp;(586) 214-3085</li>
 		</ul>
 
@@ -72,7 +71,7 @@
 			<li><a href="privacy">Privacy Policy</a></li>
 			<li><a href="tos">Terms of Us</a></li>
 			<li><a href="sitemap">Sitemap</a></li>
-			<li>&copy;&nbsp; 2018 Arbiters Express LLC. All rights reserved.</li>
+			<li>&copy;&nbsp; 2019 Arbiters Express LLC. All rights reserved.</li>
 		</ul>
 
 	</div>

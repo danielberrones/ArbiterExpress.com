@@ -33,9 +33,9 @@ header("Expires: 0"); // Proxies.
 		<div class="wrapper">
 			<a href="/" class="logo"><img src="images/logo.png" alt="Logo"></a><!--
 		 --><nav>
-		 		<a href="home">Home</a>
-				<a href="#about">About</a>
-				<a href="#services">Services</a>
+		 		<a href="index">Home</a>
+				<a href="about">About</a>
+				<a href="services">Services</a>
 				<a href="#contact">Contact</a>
 				<a href="apply">Apply</a>
 			</nav>

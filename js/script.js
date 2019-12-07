@@ -1,3 +1,5 @@
+'use strict';
+
 $(function(){
 
 	$('a[href="#contact"]').on('click', function(e){
