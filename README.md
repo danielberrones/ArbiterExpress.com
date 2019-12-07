@@ -1,6 +1,6 @@
 # Arbiter Express
 
-[ArbiterExpress.com](www.arbiterexpress.com) is a website I'm developing for a transportation services company. The site is still under construction.
+[ArbiterExpress.com](http://www.arbiterexpress.com) is a website I'm developing for a transportation services company.
 
 The following technologies are currently being used:
 
@@ -9,3 +9,5 @@ The following technologies are currently being used:
 - JavaScript (jQuery)
 - PHP (PHPMailer, PHPOffice)
 - Apache
+
+This site is still under construction.
