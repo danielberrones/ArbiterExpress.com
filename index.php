@@ -6,7 +6,7 @@
 
 		<blockquote>Integrating technological advancements<br> with good ole traditional trucking.</blockquote>
 
-		<a href="">Learn More <i class="fas fa-arrow-alt-circle-right"></i></a>
+		<a href="" class="green-button">Learn More</a>
 
 	</div>
 
@@ -53,9 +53,7 @@
             	<li>Must have a valid email access and smart phone</li>
 			</ul>
 
-			<a href="" class="button">Apply Now</a>
-
-			<img src="images/trucks1.jpg" alt="SEO" style="margin-top: 25px; border: 1px solid black;">
+			<a href="apply" class="black-button">Apply Now</a>
 
 		</div>
 

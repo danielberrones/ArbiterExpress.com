@@ -20,13 +20,13 @@
 
 	<header>
 		<div class="wrapper">
-			<a href="index" class="logo"><img src="images/logo.png" alt="SEO"></a><!--
+			<a href="index"><img src="images/logo.png" alt="SEO" class="logo"></a><!--
 		 --><nav>
 		 		<a href="index">Home</a>
 				<a href="about">About</a>
 				<a href="services">Services</a>
+				<a href="blog">Blog</a>
 				<a href="#contact">Contact</a>
-				<a href="apply">Apply</a>
 			</nav>
 		</div>
 	</header>

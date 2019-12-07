@@ -9,12 +9,8 @@
 
 			<form>
 
-				<div class="c50 right">
-					<input type="text" placeholder="First Name" name="first-name">
-				</div>
-
-				<div class="c50">
-					<input type="text" placeholder="Last Name" name="last-name">
+				<div class="c100">
+					<input type="text" placeholder="Full Name" name="name">
 				</div>
 
 				<div class="c50 right">
@@ -27,7 +23,7 @@
 
 				<textarea placeholder="Message" id="message"></textarea>
 
-				<button type="button" class="button">Send <i class="fas fa-chevron-circle-right"></i></button>
+				<button type="button" class="green-button">Send</button>
 
 			</form>
 
@@ -57,19 +53,22 @@
 
 		<ul class="details">
 			<li><a href="">ArbiterExpress.com</a></li>
-			<li><i class="fas fa-phone"></i>&nbsp;(586) 214-3085</li>
 		</ul>
 
 		<nav>
-			<a href="">Home</a>
-			<a href="">About</a>
-			<a href="">Services</a>
+	 		<a href="index">Home</a>
+			<a href="about">About</a>
+			<a href="services">Services</a>
+			<a href="blog">Blog</a>
+			<a href="#contact">Contact</a>
 		</nav>
 
 		<ul class="links">
+			<li><a href="tel:1-586-214-3085"><i class="fas fa-phone"></i>&nbsp;(586) 214-3085</a></li>
 			<li><a href="contact">Contact Us</a></li>
 			<li><a href="privacy">Privacy Policy</a></li>
 			<li><a href="tos">Terms of Use</a></li>
+			<li><a href="apply">Careers</a></li>
 			<li><a href="sitemap">Sitemap</a></li>
 			<li>&copy;&nbsp; 2020 Arbiters Express LLC. All rights reserved.</li>
 		</ul>
