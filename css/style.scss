@@ -36,6 +36,7 @@ main {
 	font-size: 0;
 	padding: 0 20%;
 	padding: 75px 0;
+	min-height: 75vh;
 	background-color: #ffffff;
 	background-image: url($bg+"wall.png");}	
 
@@ -269,6 +270,74 @@ header {
 	}
 
 }
+
+/* FORMS */
+
+.qr {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	input {
+		display: block;
+		width: 200px;
+		font-size: 30px;
+		margin: 20px auto;
+		text-align: center;
+		letter-spacing: 2px;
+		padding: 20px 0;
+		font-weight: bold;
+		border-color: gray;
+	}
+	button {
+		display: block;
+		width: 200px;
+		background: black;
+		border: none;
+		color: white;
+		text-shadow: none;
+		font-weight: normal;
+		padding: 10px 40px;
+		letter-spacing: normal;
+		margin: 0 auto;
+		transition: background 0.3s ease;
+	}
+	button:hover {
+		background: #222;
+	}
+
+}
+
+section {
+	padding: 0 3%;
+}
+
+
+.view,
+.selection {
+	display: none;
+}
+
+
+.tiles {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	button {
+		background: #eee;
+		text-align: center;
+		padding: 15px 0;
+		color: black;
+		font-size: 18px;
+		font-family: $fontFamily3;
+		font-weight: bold;
+		text-decoration: none;
+		letter-spacing: 1px;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+	}
+}
+
 
 /* HERO */
 
@@ -649,10 +718,11 @@ p + table {
 	margin-top: 15px;}
 
 
-.apply #ty {
+.apply #thank-you {
     font-size: 32px;
     font-family: Calibri;
     line-height: 1.25;
+    display: none;
     margin: 100px 0;}
 
 
@@ -668,6 +738,7 @@ p + table {
 	background-repeat: no-repeat;
 	background-position: 100% 40%;
 	color: #fff;
+	min-height: 386px;
 
 	form {background: none;}
 

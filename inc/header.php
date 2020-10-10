@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>ArbiterExpress.com - SEO KEYWORDS HERE</title>
+	<title>ArbiterExpress.com</title>
 
 	<link rel="stylesheet" href="css/style.css?v=2">
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Sans|Nunito" rel="stylesheet">
@@ -20,12 +20,11 @@
 
 	<header>
 		<div class="wrapper">
-			<a href="index"><img src="images/logo.png" alt="SEO" class="logo"></a><!--
+			<a href="/"><img src="images/logo.png" alt="SEO" class="logo"></a><!--
 		 --><nav>
-		 		<a href="index">Home</a>
+		 		<a href="/">Home</a>
 				<a href="about">About</a>
 				<a href="services">Services</a>
-				<a href="blog">Blog</a>
 				<a href="#contact">Contact</a>
 			</nav>
 		</div>

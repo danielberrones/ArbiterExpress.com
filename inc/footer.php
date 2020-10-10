@@ -7,21 +7,21 @@
 
 			<p id="thank-you">Thank you for contacting us.<br> We'll get back to you within 24 hours.<br>In the meantime, feel free to call us at:<br><a href="tel:1-586-214-3085">(586) 214-3085</a></p>
 
-			<form>
+			<form id="contact">
 
 				<div class="c100">
-					<input type="text" placeholder="Full Name" name="name">
+					<input type="text" placeholder="Full Name" name="name" id="fullname">
 				</div>
 
 				<div class="c50 right">
-					<input type="text" placeholder="Phone" name="phone">
+					<input type="text" placeholder="Phone" name="phone" id="phone">
 				</div>
 
 				<div class="c50 left">
-					<input type="text" placeholder="Email" name="email">
+					<input type="text" placeholder="Email" name="email" id="email">
 				</div>
 
-				<textarea placeholder="Message" id="message"></textarea>
+				<textarea placeholder="Message" id="message" name="message"></textarea>
 
 				<button type="button" class="green-button">Send</button>
 
@@ -59,7 +59,6 @@
 	 		<a href="index">Home</a>
 			<a href="about">About</a>
 			<a href="services">Services</a>
-			<a href="blog">Blog</a>
 			<a href="#contact">Contact</a>
 		</nav>
 
@@ -77,7 +76,7 @@
 </footer>
 
 <script src="js/jquery.js"></script>
-<script src="js/script.js?v=2"></script>
+<script src="js/script.js?v=3"></script>
 
 </body>
 </html>

@@ -1,0 +1,21 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+
+
+
+
+# redirect to a php file if it exists, otherwise stay on html
+
+RewriteCond %{REQUEST_FILENAME} (.*)\.html$
+RewriteCond %1\.php -f
+RewriteRule ^(.*)\.html$ $1.php [L]
+
+# drop the php extension
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [L]
+
+# 404 page
+
+ErrorDocument 404 /404.php

@@ -4,7 +4,7 @@
 
 	<div class="wrapper">
 
-		<blockquote>Integrating technological advancements<br> with good ole traditional trucking.</blockquote>
+		<blockquote>Certified family owned and<br> operated freight logistics company.</blockquote>
 
 		<a href="" class="green-button">Learn More</a>
 

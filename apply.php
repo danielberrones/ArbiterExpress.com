@@ -8,7 +8,7 @@
 
 		<p>Please fill out the form below if you would like to apply, or if you would like to print this application then please <a href="application.pdf">click here for download</a>.</p>
 
-		<p id="ty">Thank you for applying<br> We will get back to you shortly.</p>
+		<p id="thank-you">Thank you for applying<br> We will get back to you shortly.</p>
 
 		<form id="apply">
 

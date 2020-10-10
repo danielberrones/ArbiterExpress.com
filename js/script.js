@@ -9,12 +9,6 @@ $(function(){
 	    }, 2000);
 	});
 
-	$('a[href="#about"], a[href="#services"]').on('click', function(e){
-		e.preventDefault();
-	    $('html, body').animate({
-	        scrollTop: $("main").offset().top
-	    }, 2000);
-	});
 
 	$('#contact button').on('click', function(){
 
@@ -25,7 +19,7 @@ $(function(){
 			url: 'brain.php',
 			data: {
 				what: "contact",
-				name: $('#name').val(),
+				name: $('#fullname').val(),
 				phone: $('#phone').val(),
 				email: $('#email').val(),
 				message: $('#message').val()
@@ -33,8 +27,8 @@ $(function(){
 			dataType: 'text',
 			success: function(results){
 
-				$('form').fadeOut();
-				$('#ty').fadeIn();
+				$('#contact').fadeOut();
+				$('#contact-bar #thank-you').fadeIn();
 
 			}
 		});
@@ -55,12 +49,57 @@ $(function(){
 			dataType: 'text',
 			success: function(results){
 
-				$('form').fadeOut();
-				$('#ty').fadeIn();
+				$('#apply').fadeOut();
+				$('.apply #thank-you').fadeIn();
 		
 			}
 		});
 
 	});
 
+	$('.qr button').on('click', function(){
+
+		let theForm = $(this).parent();
+
+		$.ajax({
+			method: 'post',
+			url: 'brain.php',
+			data: theForm.serializeArray(),
+			dataType: 'text',
+			success: function(results){
+
+				if (results === 'green') {
+
+					theForm.fadeOut();
+					
+					$('.view').fadeIn();
+
+				};
+
+				if (results === 'red') {
+
+					resetForm();
+					$('form button').text('Try Again');
+					// make timestamp of who and when they failed to log
+
+				};
+		
+			}
+		});	
+
+	});
+
+	$('.tiles button').on('click', function(){
+		$('.tiles button').css({'background':'#eee','color':'black'});
+		$(this).css({'background':'black','color':'white'});
+
+		$('.selection h2 span').text($(this).text());
+
+		$('.selection').fadeIn();
+	});
+
 });
+
+function resetForm() {
+	$('form').trigger('reset');
+}
